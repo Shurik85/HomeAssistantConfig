@@ -1,6 +1,6 @@
 blueprint:
 
-  name: ZHA - Tuya - TS004F Rotating Knob - Custom Actions
+  name: ZHA-Rotating Knob
 
   description: >-
     This automation adds triggers for all actions of the Tuya TS004F rotating knob remote.
@@ -42,7 +42,7 @@ blueprint:
       selector:
         device:
           integration: zha
-          manufacturer: _TZ3000_4fjiwweb
+          manufacturer: _TZ3000_qja6nq5z
           model: TS004F
     light:
       name: Light (Command/Dimmer mode)
